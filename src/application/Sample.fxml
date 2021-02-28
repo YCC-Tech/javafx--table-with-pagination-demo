@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="deleteRows" prefHeight="495.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="16.0" layoutY="21.0" text="Table View with Pagination Demo" textFill="#222222">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Pagination fx:id="pagination" layoutX="14.0" layoutY="63.0" pageCount="10" prefHeight="402.0" prefWidth="531.0" />
+    </children>
+</AnchorPane>
